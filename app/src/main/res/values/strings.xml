@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JavaTry</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="brew_array">
+        <item>SVM</item>
+        <item>RandomForest</item>
+        <item>J48</item>
+    </string-array>
+</resources>

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:layout_weight="0.20">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evaluate"
+            android:id="@+id/button" />
+
+        <Spinner
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.46">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="239dp"
+            android:text="New Text"
+            android:id="@+id/textView" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:text="New Text"
+                android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:text="New Text"
+            android:id="@+id/textView3" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
